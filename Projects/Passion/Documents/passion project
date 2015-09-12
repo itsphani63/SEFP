@@ -1,0 +1,16 @@
+My Passion project:
+
+When I was a kid I always used to wonder that there wasn't a single game where a computer brain beats a human brain.
+So I always passionate about making a game where a human can never win and even if he comes up with a better solution to solve the puzzle,My system will automatically stores that solution so that not to let the player again to win.
+
+So My game is a simple "Tic Tac Toe" in which I mainly concentrate on its graphics interface and on its best algorithm for not letting any player to win.
+
+There will be levels of dificulties in this game where the probability of winning tends to '0' while you tend towards more difficulty level.
+
+So my game is a challenging task which lets the user to think of a new and better solution and i want to add features like Unlimited tic tac toe and mega tic tac toe.
+
+Software Requirements:
+1.GUI
+2.Data Structures
+3.MySQL
+
