@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Shuffle</title>
+	<link rel="stylesheet" type="text/css" href="game3.css">
+</head>
+
+<body style="background-color:grey;">
+<div class="Language Select">
+	<center>
+		<h3> Choose Language: </h3>
+		<select id='Language' value='Hindi' onchange='setlanguage()'>
+			<option value='hindi'> Hindi </option>
+			<option value='telugu'> Telugu </option>
+		</select>
+	</center>
+</div>
+	<div class="Main">
+	<h1 style="text-align:center;">learn numbers</h1>
+	<table id="tbl" align="left" div="Table">
+	<tr>
+		<td><button class = "Style1" type="button" onclick="getdata(1)" id="11"></td>
+		<td><button class = "Style1" type="button" onclick="getdata(2)" id="12"></td>
+		<td><button class = "Style1" type="button" onclick="getdata(3)" id="13"></td>
+		<td><button class = "Style1" type="button" onclick="getdata(4)" id="14"></td>
+		<td><button class = "Style1" type="button" onclick="getdata(5)" id="15"></td>
+	</tr>
+	<tr>
+		<td><button class = "Style1" type="button" onclick="getdata1(1)" id="21"></td>
+		<td><button class = "Style1" type="button" onclick="getdata1(2)" id="22"></td>
+		<td><button class = "Style1" type="button" onclick="getdata1(3)" id="23"></td>
+		<td><button class = "Style1" type="button" onclick="getdata1(4)" id="24"></td>
+		<td><button class = "Style1" type="button" onclick="getdata1(5)" id="25"></td>
+	</tr>
+	<tr>
+		<td><button class = "Style1" type="button" onclick="getdata2(1)" id="31"></td>
+		<td><button class = "Style1" type="button" onclick="getdata2(2)" id="32"></td>
+		<td><button class = "Style1" type="button" onclick="getdata2(3)" id="33"></td>
+		<td><button class = "Style1" type="button" onclick="getdata2(4)" id="34"></td>
+		<td><button class = "Style1" type="button" onclick="getdata2(5)" id="35"></td>
+	</tr>
+	<tr>
+		<td><button class = "Style1" type="button" onclick="getdata3(1)" id="41"></td>
+		<td><button class = "Style1" type="button" onclick="getdata3(2)" id="42"></td>
+		<td><button class = "Style1" type="button" onclick="getdata3(3)" id="43"></td>
+		<td><button class = "Style1" type="button" onclick="getdata3(4)" id="44"></td>
+		<td><button class = "Style1" type="button" onclick="getdata3(5)" id="45"></td>
+	</tr>
+	<tr>
+		<td><button class = "Style1" type="button" onclick="getdata4(1)" id="51"></td>
+		<td><button class = "Style1" type="button" onclick="getdata4(2)" id="52"></td>
+		<td><button class = "Style1" type="button" onclick="getdata4(3)" id="53"></td>
+		<td><button class = "Style1" type="button" onclick="getdata4(4)" id="54"></td>
+		<td><button class = "Style1" type="button" onclick="getdata4(5)" id="55"></td>
+	</tr>
+	<tr>
+		<td><button class = "Style1" type="button" onclick="getdata5(1)" id="61"></td>
+		<td><button class = "Style1" type="button" onclick="getdata5(2)" id="62"></td>
+		<td><button class = "Style1" type="button" onclick="getdata5(3)" id="63"></td>
+		<td><button class = "Style1" type="button" onclick="getdata5(4)" id="64"></td>
+		<td><button class = "Style1" type="button" onclick="getdata5(5)" id="65"></td>
+	</tr>
+	</table>
+	<center><button class = "Style" type="button" onclick="restart()">start the game</button></center>
+	<p id="Selectedletter" style="text-align:center;font-weight:bolder;font-size:23px;"></p>
+	</div>
+</body>
+
+<script type="text/javascript" src="game3.js"></script>
+</script>
+</html>
